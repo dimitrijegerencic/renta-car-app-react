@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 4px;
+  padding-bottom: 16px;
+
+  &>label{
+    font-size: 14px;
+    font-family: "Poppins-Medium", sans-serif;
+    margin-bottom: 4px;
+  }
+
+  &>span{
+    display: block;
+    font-size: 10px;
+    font-family: "Poppins-Medium", sans-serif;
+    font-style: oblique;
+    margin-top: 2px;
+    margin-left: 2px;
+    color: red;
+
+  }
+}

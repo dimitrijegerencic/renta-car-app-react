@@ -1,0 +1,56 @@
+.container{
+  display: flex;
+  background-color: var(--section-background);
+  padding: 45px 12.5vw 66px;
+
+  @media screen and (max-width: 1400px) {
+    & {
+      padding-left: 7.5vw;
+      padding-right: 7.5vw;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    & {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+.title{
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 46px;
+  line-height: 144px;
+  color: var(--text-color);
+  text-align: center;
+
+  @media screen and (max-width: 1300px) {
+    & {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  }
+}
+
+.list-container{
+  display: flex;
+  gap: 5vw;
+
+  @media screen and (max-width: 1400px) {
+    & {
+      gap: 4vw;
+    }
+  }
+
+  &>div{
+    width: 30%;
+  }
+
+  @media screen and (max-width: 900px) {
+    & {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

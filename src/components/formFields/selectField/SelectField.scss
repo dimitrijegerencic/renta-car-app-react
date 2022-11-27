@@ -1,0 +1,40 @@
+.__select_field{
+  width: 100%;
+  .ant-select-selector{
+    border: 1px solid #BCCDE5 !important;
+    border-radius: 6px !important;
+    padding: 0 20px !important;
+    min-height: 49px !important;
+    color: #243657;
+    line-height: 11px;
+    font-size: 14px;
+    font-family: "Poppins-Medium", sans-serif;
+
+  }
+
+  &:hover,
+  &:focus{
+    .ant-select-selector {
+      border-color: #BCCDE5;
+    }
+  }
+
+  input{
+    height: 100%;
+  }
+
+  .ant-select-selection-placeholder,
+  .ant-select-selection-item{
+    display: flex;
+    align-items: center;
+    line-height: 1 !important;
+    font-size: 14px;
+  }
+
+  .ant-select-selection-placeholder{
+    color: #97A3B4;
+    font-family: "Poppins-Light", sans-serif;
+    margin: 0;
+  }
+}
+

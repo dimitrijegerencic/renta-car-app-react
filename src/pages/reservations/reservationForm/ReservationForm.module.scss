@@ -1,0 +1,42 @@
+.dates{
+  display: flex;
+  gap: 10px;
+}
+.locations{
+  display: flex;
+  gap: 10px;
+  .location-right{
+    height: 20px;
+  }
+}
+.customer-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 13px;
+}
+
+.user-info-title{
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 23px;
+}
+
+.vehicle-info, .client-info-1, .client-info-2{
+  display: flex;
+}
+
+.vehicle-info{
+  gap: 10px;
+}
+.client-info-1{
+  gap: 30px;
+}
+.client-info-2{
+  gap: 50px;
+}
+

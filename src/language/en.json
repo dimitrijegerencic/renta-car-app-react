@@ -1,0 +1,144 @@
+{
+  "common": {
+    "language": "Language",
+    "options": "Options",
+    "preview": "Preview",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel":  "Cancel",
+    "delete" : "Delete",
+    "confirm-delete" : "Confirm delete? This action can not be undone.",
+    "more-info" : "More info",
+    "previous" : "Previous",
+    "current" : "Current",
+    "future" : "Future",
+    "login" : "Log in"
+  },
+  "navigation": {
+    "add-new-user": "Add new user",
+    "add-new-vehicle": "Add new vehicle",
+    "add-new-reservation": "Add new reservation",
+    "logout": "Logout"
+  },
+  "language": {
+    "eng": "English",
+    "mne": "Montenegrin"
+  },
+  "error-message": {
+    "api": "There has been an error!"
+  },
+  "sidebar": {
+    "clients": "Clients",
+    "vehicles": "Vehicles",
+    "reservations": "Reservations",
+    "cities" : "Cities"
+  },
+  "dashboard": {
+    "welcome": "Welcome !"
+  },
+  "clients": {
+    "placeholder": "Search clients",
+    "add-client": "Add client",
+    "edit-client": "Edit client",
+    "delete-client" : "Delete client",
+    "name": "Full name",
+    "passport" : "Passport",
+    "number": "Id card/passport number",
+    "phone": "Phone number",
+    "email": "Email",
+    "password" : "Password",
+    "first-reservation": "Date of first reservation",
+    "last-reservation": "Date of last reservation",
+    "note": "Note",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "country": "Country",
+    "success-add": "Client added successfully!",
+    "success-edit": "Client edited successfully!",
+    "success-delete": "Client deleted successfully!",
+    "placeholders": {
+      "firstName": "Insert first name",
+      "lastName": "Insert last name",
+      "number": "Insert number",
+      "email": "Insert email",
+      "country": "Select country",
+      "password" : "Insert password"
+    }
+  },
+  "vehicles" : {
+    "add-vehicle" : "Add vehicle",
+    "edit-vehicle" : "Edit vehicle",
+    "delete-vehicle" : "Delete vehicle",
+    "placeholder" : "Search vehicle...",
+    "plate-number" : "Plate number",
+    "production-year" : "Prod. year",
+    "type" : "Type",
+    "number-of-seats" : "Number of seats",
+    "daily_rate" : "Daily rate",
+    "note" : "Note",
+    "success-add": "Vehicle added successfully!",
+    "success-edit": "Vehicle edited successfully!",
+    "success-delete": "Vehicle deleted successfully!",
+    "placeholders": {
+      "plate_number": "Insert plate number",
+      "number_of_seats": "Insert number of seats",
+      "type": "Insert type",
+      "production_year": "Insert production year",
+      "daily-rate" : "Insert daily rate"
+    }
+  },
+  "cities" : {
+    "placeholder" : "Search cities",
+    "add-city": "Add city",
+    "edit-city": "Edit city",
+    "name" : "Naziv"
+  },
+  "reservations" : {
+    "title" : "Reservations",
+    "placeholder" : "Search reservations",
+    "add-reservation": "Add reservation",
+    "edit-reservation": "Edit reservation",
+    "client" : "Client",
+    "vehicle" : "Vehicle",
+    "from" : "Date from:",
+    "to" : "Date to:",
+    "pick-up" : "Pick up location:",
+    "drop-off" : "Drop off location:",
+    "total-price" : "Total price:",
+    "success-add": "Reservation added successfully!",
+    "success-edit": "Reservation edited successfully!",
+    "success-delete": "Reservation deleted successfully!",
+    "current" : "CURRENT RESERVATIONS",
+    "previous" : "PREVIOUS RESERVATIONS",
+    "future" : "FUTURE RESERVATIONS",
+    "all" : "ALL RESERVATIONS",
+    "placeholders" : {
+      "client_id" : "Select client",
+      "vehicle_id" : "Select vehicle",
+      "from" : "From: ",
+      "to" : "To: ",
+      "pick" : "Location",
+      "drop" : "Location",
+      "total-price" : "Insert total price"
+
+    }
+  },
+  "validation": {
+    "required": "Field required!",
+    "invalid": "Field invalid!",
+    "min": "Field must have at least {number} characters!",
+    "max": "Field cannot have more than {number} characters!"
+  },
+  "forbidden" : {
+    "warning" : "Warning!",
+    "info" : "You don't have access to this page! Please go back.",
+    "title" : "Forbidden page",
+    "info-admin" : "As an admin, you have access to this page."
+  },
+  "login" : {
+    "title" : "Log in",
+    "email" : "Email",
+    "password" : "Password"
+  }
+}

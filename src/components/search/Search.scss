@@ -1,0 +1,14 @@
+.__search-field{
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+
+  .ant-input-search-button{
+    border: none !important;
+    border-radius: 6px !important;
+  }
+
+  .ant-input-affix-wrapper{
+    border: none;
+    border-radius: 6px !important;
+  }
+}

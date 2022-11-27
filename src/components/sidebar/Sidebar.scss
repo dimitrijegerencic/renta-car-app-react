@@ -1,0 +1,7 @@
+.__sidebar{
+  padding-top: 30px;
+  border-right-color: var(--secondary-color);
+  &>li{
+    padding-left: 30px !important;
+  }
+}

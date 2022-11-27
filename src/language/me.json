@@ -1,0 +1,132 @@
+{
+  "common": {
+    "language": "Jezik",
+    "options": "Opcije",
+    "preview": "Pregled",
+    "edit": "Izmijeni",
+    "delete": "Obriši",
+    "save": "Sačuvaj",
+    "cancel":  "Otkaži",
+    "delete" : "Obriši",
+    "confirm-delete" : "Potvrdi brisanje? Ova radnja ne može biti opozvana.",
+    "more-info" : "Informacije",
+    "previous" : "Prethodne",
+    "current" : "Trenutne",
+    "future" : "Buduće"
+  },
+  "error-message": {
+    "api": "Došlo je do greške!"
+  },
+  "navigation": {
+    "add-new-user": "Dodaj novog korisnika",
+    "add-new-vehicle": "Dodaj novo vozilo",
+    "add-new-reservation": "Dodaj novu rezervaciju",
+    "logout": "Izloguj se"
+  },
+  "language": {
+    "eng": "Engleski",
+    "mne": "Crnogorski"
+  },
+  "sidebar": {
+    "clients": "Klijenti",
+    "vehicles": "Vozila",
+    "cities" : "Gradovi",
+    "reservations": "Rezervacije"
+  },
+  "dashboard": {
+    "welcome": "Dobrodošli !"
+  },
+  "clients": {
+    "placeholder": "Pretraži klijente...",
+    "add-client": "Dodaj klijenta",
+    "edit-client": "Izmijeni klijenta",
+    "delete-client" : "Obriši klijenta",
+    "name": "Ime i prezime",
+    "number": "Broj lične karte/pasoša",
+    "phone": "Broj telefona",
+    "email": "Email",
+    "passowrd" : "Šifra",
+    "first-reservation": "Datum prve rezervacije",
+    "last-reservation": "Datum poslednje rezervacije",
+    "note": "Napomena",
+    "placeholders": {
+      "firstName": "Unesite ime",
+      "lastName": "Unesite prezime",
+      "number": "Unesite broj lične karte/pasoša",
+      "phone-number" : "Unesite broj telefona",
+      "email": "Unesite email",
+      "country": "Izaberite državu",
+      "password" : "Unesite šifru"
+    }
+  },
+  "vehicles" : {
+    "add-vehicle" : "Dodaj vozilo",
+    "edit-vehicle" : "Izmijeni vozilo",
+    "delete-vehicle" : "Obriši vozilo",
+    "placeholder" : "Pretraži vozila...",
+    "plate-number" : "Broj tablica",
+    "production-year" : "God. proizv.",
+    "type" : "Tip",
+    "number-of-seats" : "Broj sjedišta",
+    "daily_rate" : "Cijena po danu",
+    "note" : "Napomena",
+    "success-add": "Vozilo uspješno dodato!",
+    "success-edit": "Vozilo uspješno izmijenjeno!",
+    "success-delete": "Vozilo uspješno obrisano!",
+    "placeholders": {
+      "plate_number": "Unesite broj tablica",
+      "number_of_seats": "Unesite broj sjedišta",
+      "type": "Unesite tip",
+      "production_year": "Unesite godinu proizvodnje",
+      "daily-rate" : "Unesite cijenu po danu"
+    }
+  },
+  "reservations" : {
+    "title" : "Rezervacije",
+    "placeholder" : "Pretraži rezervacije...",
+    "add-reservation": "Dodaj rezervaciju",
+    "edit-reservation": "Izmijeni rezervaciju",
+    "delete-reservation" : "Obriši rezervaciju",
+    "client" : "Ime klijenta",
+    "vehicle" : "Broj tablice vozila",
+    "from" : "Datum od",
+    "to" : "Datum do",
+    "pick-up" : "Lok. preuzimanja",
+    "drop-off" : "Lok. vraćanja",
+    "total-price" : "Ukupna cijena: ",
+    "success-add": "Rezervacija uspješno dodata!",
+    "success-edit": "Rezervacija uspješno izmijenjena!",
+    "success-delete": "Rezervacija uspješno obrisana!",
+    "current" : "REZERVACIJE U TOKU",
+    "previous" : "PRETHODNE REZERVACIJE",
+    "future" : "BUDUĆE REZERVACIJE",
+    "all" : "SVE REZERVACIJE",
+    "placeholders" : {
+      "client_id" : "Izaberi klijenta",
+      "vehicle_id" : "Izaberi vozilo",
+      "from" : "Od: ",
+      "to" : "Do: ",
+      "pick" : "Lokacija",
+      "drop" : "Lokacija",
+      "total-price" : "Unesi ukupnu cijenu"
+
+    }
+  },
+  "validation": {
+    "required": "Polje je obavezno!",
+    "invalid": "Polje je nevalidno!",
+    "min": "Polje mora imati više od {number} karaktera!",
+    "max": "Polje ne može imati manje od {number} karaktera!"
+  },
+  "forbidden" : {
+    "warning" : "Upozorenje!",
+    "info" : "Nemate pristup ovoj stranici! Molimo Vas vratite se nazad.",
+    "title" : "Zabranjena stranica",
+    "info-admin" : "Kao admin, imate pravo pristupa ovoj stranici."
+  },
+  "login" : {
+    "title" : "Uloguj se",
+    "email" : "Email",
+    "password" : "Šifra"
+  }
+}

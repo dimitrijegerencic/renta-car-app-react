@@ -1,0 +1,39 @@
+.user-card{
+    width: 250px;
+    min-width: 250px;
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 16px;
+    margin: 6px;
+}
+
+.image-container{
+    height: 100px;
+    border-radius: 50%;
+    margin: 16px auto;
+    border: 1px solid;
+    overflow: hidden;
+    aspect-ratio: 1;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.user-data div{
+    font-size: 18px;
+    line-height: 22px;
+    color: darkblue;
+}
+
+.first-name{
+    &::before{
+        content: '';
+    }
+
+    &::after{
+        content: '';
+    }
+}

@@ -1,0 +1,22 @@
+.container{
+  position: relative;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.content{
+  display: flex;
+  height: 100vh;
+  padding-top: 90px;
+}
+
+.page{
+  padding: 36px 30px 24px 16px;
+  width: 100%;
+  overflow: auto;
+}
